@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<head>
+<script type="text/javascript" src="validateform.js"></script>
+<style>
+ul {list-style-type:none;}
+form{
+  background-color: blue;
+}
+</style>
+</head>
+ 
+<body>
+<form action="#" name="StudenSignupForm" onsubmit="return(validateHTMlform());">
+ 
+<div cellpadding="2" width="20%" bgcolor="99FFFF" align="center"
+cellspacing="2">
+ 
+<ul>
+<li>
+<center><font size=4><b>Student Application Form</b></font></center>
+</li>
+</ul>
+ 
+<ul>
+<li>First Name</li>
+<li><input type=text name=textnames id="textname" size="30"></li>
+</ul>
+ 
+  <ul>
+<li>
+  Last Name</li>
+<li><input type=text name=lastnames id="lastname" size="30"></li>
+</ul>
+  
+<ul>
+<li>Father Name</li>
+<li><input type="text" name="full_father_name" id="fathername"
+size="30"></li>
+</ul>
+ 
+ 
+<ul>
+<li>Address</li>
+<li><input type="text" name="personal_address"
+id="personaladdress" size="30"></li>
+</ul>
+ 
+<ul>
+<li>Gender</li>
+<li><input type="radio" name="sex" value="male" size="10">Male
+<input type="radio" name="sex" value="Female" size="10">Female</li>
+</ul>
+ 
+<ul>
+<li>City</li>
+<li><select name="City">
+<option value="-1" selected>select..</option>
+<option value="hyd">hyd</option>
+<option value="CHENNAI">CHENNAI</option>
+<option value="banglore">banglore</option>
+<option value="vijaywda">vijaywda</option>
+</select></li>
+</ul>
+ 
+<ul>
+<li>Course</li>
+<li><select name="Course">
+<option value="-1" selected>select..</option>
+<option value="B.Tech">B.TECH</option>
+<option value="MCA">MCA</option>
+<option value="MBA">MBA</option>
+<option value="BCA">BCA</option>
+</select></li>
+</ul>
+<ul>
+<li>Specialization</li>
+<li><select name="Specialization">
+<option value="-1" selected>select..</option>
+<option value="cse">cse</option>
+<option value="it">it</option>
+<option value="ece">ece</option>
+<option value="eee">eee</option>
+<option value="civil">civil</option>
+</select></li>
+</ul>
+ 
+ <ul>
+<li>Percentage</li>
+<li><select name="percentage">
+<option value="-1" selected>select..</option>
+<option value="above 90">above 90</option>
+<option value="80 to 90">80 to 90</option>
+<option value="70 to 80">70 to 80</option>
+<option value="60 to 70">60 to 70</option>
+<option value="below 60">below 60</option>
+</select></li>
+</ul>
+ 
+<ul>
+<li>State</li>
+<li><select Name="State">
+<option value="-1" selected>select..</option>
+<option value="AP">AP</option>
+<option value="Teleangana">Teleangana</option>
+<option value="karnataka">karnataka</option>
+<option value="tamilnadu">tamilnadu</option>
+</select></li>
+</ul>
+  
+  <ul>
+<li>District</li>
+<li><select name="District">
+<option value="-1" selected>select..</option>
+<option value="prakasam">prakasam</option>
+<option value="guntur">guntur</option>
+<option value="hyd">hyd</option>
+<option value="nellore">nellore</option>
+</select></li>
+ 
+</ul>
+  
+<ul>
+<li>PinCode</li>
+<li><input type="text" name="pin_code" id="pincode" size="30"></li>
+ 
+</ul>
+<ul>
+<li> email</li>
+<li><input type="text" name="email_id" id="emailid" size="30"></li>
+</ul>
+ 
+<ul>
+<li>Date Of Birth</li>
+<li><input type="text" name="date_of_birth" id="dob" size="30"></li>
+</ul>
+ 
+<ul>
+<li>Mobile Number</li>
+<li><input type="text" name="mobilenumber" id="mobile_no" size="30"></li>
+</ul>
+<ul>
+<li><input type="reset"></li><br></br>
+
+<li colspan="2"><input type="submit" value="Submit Form" /></li>
+</ul>
+</div>
+</form>
+</body>
+</body>
+</html>
